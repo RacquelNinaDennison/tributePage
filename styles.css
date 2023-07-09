@@ -1,0 +1,155 @@
+body {
+	margin: 0;
+}
+
+.wrapper {
+	max-width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+header {
+	height: 400px;
+	width: 100%;
+	margin: 0;
+}
+
+.image {
+	align-self: center;
+	width: 50%;
+	order: 2; /* Added to change the order of flex items */
+}
+
+.heading {
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 20px; /* Changed margin-left to margin-right */
+}
+
+.Head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Hero {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	height: 100px;
+	margin: 0 auto;
+	width: 1000px;
+	color: black;
+	text-align: left;
+}
+
+h1 {
+	margin-bottom: 15px;
+	color: black;
+	font-family: "Playfair Display", serif;
+	font-size: 50px;
+	font-weight: 200;
+	font-style: normal;
+	letter-spacing: 18px;
+}
+
+.line {
+	width: 150px;
+	background-color: black;
+	height: 1px;
+}
+
+.info {
+	background-color: black;
+	height: 100%;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.text {
+	align-items: flex-end;
+}
+
+h2 {
+	text-align: center;
+	align-content: center;
+}
+
+.Binnen {
+	width: 1000px;
+
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.mainText {
+	flex: 2;
+}
+
+.mainText h2 {
+	font-size: 30px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 4px;
+	margin-bottom: 45px;
+}
+
+.paragraph {
+	font-family: "Lora", serif;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 180%;
+	text-align: justify;
+}
+
+.Quote {
+	flex: 1;
+	height: 1020px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.binnenQ {
+	margin-top: 220px;
+	padding-left: 100px;
+}
+
+.INquote {
+	margin: 0;
+	color: #ca8431;
+	font-family: "Playfair Display", serif;
+	font-size: 24px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 160%;
+}
+
+.writer {
+	margin-top: 20px;
+	color: #8c8c8c;
+	font-family: "Playfair Display", serif;
+	font-size: 16px;
+	font-weight: 200;
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+	color: #5b84c8;
+}
+
+.Psite {
+	font-weight: 700;
+	font-style: bold;
+}
+.author{
+	width: 200px;
+	height: 250px;
+}
